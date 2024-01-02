@@ -45,12 +45,22 @@ font-family: 'Red Hat Display', sans-serif; */
   }
   .linkContainer a {
     font-size: 33px;
+    display: block;
+    height: 100%;
   }
   .linkContainer .linkWrapper div {
     width: 40%;
     padding-left: 15px;
     padding-top: 25px;
+    height: 200px;
   }
+  .linkContainer .linkWrapper div:hover {
+    background-color: #000;
+  }
+  .linkContainer .linkWrapper div:hover a {
+    color: #fff;
+  }
+
   .linkContainer .linkWrapper div:last-child {
     margin-top: 120px;
   }
@@ -165,5 +175,9 @@ font-family: 'Red Hat Display', sans-serif; */
   .projectWrapper .titleWrapper .viewBtn {
     margin-top: 150px;
     width: 10vw;
+  }
+  .projectWrapper .titleWrapper .viewBtn:hover {
+    background-color: #000;
+    color: #fff;
   }
 }

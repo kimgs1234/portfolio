@@ -3,11 +3,13 @@ import PortHeader from "./PortHeader";
 import { Link } from "react-router-dom";
 import "./Mobile.css";
 import "./desktop.css";
+import ScrollToTop from "./ScrollToTop";
 
 const Home = () => {
   const path = process.env.PUBLIC_URL;
   return (
     <div>
+      <ScrollToTop />
       <PortHeader />
       <section className="mainWrapper">
         <h2>Welcome To Portfolio</h2>
@@ -39,7 +41,9 @@ const Home = () => {
           </div>
           <div>
             <h6>바로가기</h6>
-            <Link to="/">About</Link>
+            <Link to="/">
+              <span>About</span>
+            </Link>
           </div>
         </div>
       </section>

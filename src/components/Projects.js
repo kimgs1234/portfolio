@@ -2,10 +2,12 @@ import React from "react";
 import PortHeader from "./PortHeader";
 import "./Mobile.css";
 import "./desktop.css";
+import ScrollToTop from "./ScrollToTop";
 const Projects = () => {
   const path = process.env.PUBLIC_URL;
   return (
     <div>
+      <ScrollToTop />
       <PortHeader />
       <section className="projectWrapper">
         <img src={`${path}/images/titicon.png`} alt="tit" className="titicon" />

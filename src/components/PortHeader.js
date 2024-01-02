@@ -10,15 +10,15 @@ const PortHeader = () => {
   };
   return (
     <header>
-      <Link to="/">
-        <h2>PORTFOLIO</h2>
-      </Link>
+      <h2>
+        <Link to="/">PORTFOLIO</Link>
+      </h2>
       <a href="#" className="ham-btn" onClick={onClick}>
         <span>bar1</span>
         <span>bar2</span>
         <span>bar3</span>
       </a>
-      {isChk && <Headermenu isChk={isChk} onClick={onClick} />}
+      <Headermenu isChk={isChk} onClick={onClick} />
     </header>
   );
 };
