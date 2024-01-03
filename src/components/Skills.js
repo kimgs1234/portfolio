@@ -26,7 +26,7 @@ const Skills = () => {
           <menu>
             <li>const 와 let 그리고 객체 리터럴 방식 사용</li>
             <li>map,filter와 같은 함수 사용</li>
-            <li>setInterval,setTimeout와 같은 비동기 함수 사용s</li>
+            <li>setInterval,setTimeout와 같은 비동기 함수 사용</li>
             <li>async와 await 로 비동기 통신 가능</li>
             <li>addEventListener로 동적 이벤트 구현</li>
             <li>구조분해 할당</li>
@@ -50,7 +50,9 @@ const Skills = () => {
           <menu>
             <li>express로 서버 구축</li>
             <li>axios로 데이터 요청</li>
-            <li>express로 CRUD 구현 가능</li>
+            <li>RESTful API로 CRUD 구현 가능</li>
+            <li>express-session 과 같은 미들웨어 활용</li>
+            <li>데이터 보안을 위해 sha256으로 비밀번호 암호화</li>
           </menu>
         </div>
         <div>

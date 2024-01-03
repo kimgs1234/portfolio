@@ -62,10 +62,12 @@ const Projects = () => {
             />
           </a>
           <div className="titleWrapper">
-            {" "}
-            <h3>포트폴리오</h3>
-            <h6>리액트를 어느정도 배우고만든 개인 포트폴리오 사이트입니다.</h6>
-            <p>#React #Css #react-routder-dom</p>
+            <h3>맹그로브 클론 사이트</h3>
+            <h6>
+              자바스크립트를 학습하면서 진행한 팀프로젝트에서 만든 웹사이트
+              입니다.
+            </h6>
+            <p>#Html #Css #JavaScript #responsiveWeb</p>
             <a href="#" className="viewBtn">
               더보기
             </a>
@@ -80,13 +82,9 @@ const Projects = () => {
             />
           </a>
           <div className="titleWrapper">
-            {" "}
-            <h3>맹그로브 클론 사이트</h3>
-            <h6>
-              자바스크립트를 학습하면서 진행한 팀프로젝트에서 만든 웹사이트
-              입니다.
-            </h6>
-            <p>#Html #Css #JavaScript #responsiveWeb</p>
+            <h3>포트폴리오</h3>
+            <h6>리액트를 어느정도 배우고만든 개인 포트폴리오 사이트입니다.</h6>
+            <p>#React #Css #react-routder-dom</p>
             <a href="#" className="viewBtn">
               더보기
             </a>

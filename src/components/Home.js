@@ -1,12 +1,30 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PortHeader from "./PortHeader";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "../styles/Mobile.css";
 import "../styles/desktop.css";
 import ScrollToTop from "./ScrollToTop";
 
 const Home = () => {
   const path = process.env.PUBLIC_URL;
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: "smooth",
+    });
+  };
+  const location = useLocation();
+
+  useEffect(() => {
+    // URL의 쿼리 파라미터를 확인하여 조건에 맞는 경우에 스크롤합니다.
+    if (location.search === "?scrollTo=bottom") {
+      window.scrollTo({
+        top: document.documentElement.scrollHeight,
+        behavior: "smooth",
+      });
+    }
+  }, [location]); // location이 변경될 때마다 이 효과를 재실행합니다.
+
   return (
     <div>
       <ScrollToTop />
@@ -41,7 +59,7 @@ const Home = () => {
           </div>
           <div>
             <h6>바로가기</h6>
-            <Link to="/">
+            <Link to="/?scrollTo=bottom" onClick={scrollToBottom}>
               <span>About</span>
             </Link>
           </div>
