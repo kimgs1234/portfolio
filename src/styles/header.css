@@ -132,10 +132,17 @@ header div.active {
     width: 120px;
     margin-right: 15px;
   }
+  header div ul li a:hover {
+    color: #ee8100;
+  }
   header h2 {
     font-size: 25px;
     padding: 10px 15px;
     margin-left: 8vw;
+  }
+  header h2:hover {
+    color: #ee8100;
+    border-color: #ee8100;
   }
   header .ham-btn {
     right: 50px;
