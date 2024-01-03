@@ -13,13 +13,13 @@ const Projects = () => {
         <img src={`${path}/images/titicon.png`} alt="tit" className="titicon" />
         <h2>Projects</h2>
         <div className="bigTitle">
-          <a href="#">
+          <div>
             <img
               src={`${path}/images/나만의가계부.png`}
               alt="accountbook"
               className="accountimg"
             />
-          </a>
+          </div>
           <div className="titleWrapper">
             {" "}
             <h3>가계부앱</h3>
@@ -30,19 +30,22 @@ const Projects = () => {
               #React #Css #react-router-dom #rechart # react-calendar #Express
               #MongoDB
             </p>
-            <a href="#" className="viewBtn">
+            <a
+              href="https://github.com/kimks1234/accountBook"
+              className="viewBtn"
+              target="_blank">
               더보기
             </a>
           </div>
         </div>
         <div className="bigTitle">
-          <a href="#">
+          <div>
             <img
               src={`${path}/images/나만의가계부.png`}
               alt="accountbook"
               className="accountimg"
             />
-          </a>
+          </div>
           <div className="titleWrapper">
             {" "}
             <h3>개인프로젝트</h3>
@@ -54,13 +57,13 @@ const Projects = () => {
           </div>
         </div>
         <div className="bigTitle">
-          <a href="#">
+          <div>
             <img
               src={`${path}/images/맹그로브.png`}
               alt="accountbook"
               className="accountimg"
             />
-          </a>
+          </div>
           <div className="titleWrapper">
             <h3>맹그로브 클론 사이트</h3>
             <h6>
@@ -74,13 +77,13 @@ const Projects = () => {
           </div>
         </div>
         <div className="bigTitle">
-          <a href="#">
+          <div>
             <img
               src={`${path}/images/포트폴리오.png`}
               alt="accountbook"
               className="accountimg"
             />
-          </a>
+          </div>
           <div className="titleWrapper">
             <h3>포트폴리오</h3>
             <h6>리액트를 어느정도 배우고만든 개인 포트폴리오 사이트입니다.</h6>
