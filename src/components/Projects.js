@@ -1,7 +1,7 @@
 import React from "react";
 import PortHeader from "./PortHeader";
-import "./Mobile.css";
-import "./desktop.css";
+import "../styles/Mobile.css";
+import "../styles/desktop.css";
 import ScrollToTop from "./ScrollToTop";
 const Projects = () => {
   const path = process.env.PUBLIC_URL;

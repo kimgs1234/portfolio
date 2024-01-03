@@ -1,8 +1,8 @@
 import React from "react";
 import PortHeader from "./PortHeader";
 import { Link } from "react-router-dom";
-import "./Mobile.css";
-import "./desktop.css";
+import "../styles/Mobile.css";
+import "../styles/desktop.css";
 import ScrollToTop from "./ScrollToTop";
 
 const Home = () => {

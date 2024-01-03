@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Headermenu from "./Headermenu";
-import "./header.css";
+import "../styles/header.css";
 const PortHeader = () => {
   const [isChk, setIsChk] = useState(false);
   const onClick = (e) => {
