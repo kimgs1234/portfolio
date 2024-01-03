@@ -56,7 +56,7 @@ const Projects = () => {
         <div className="bigTitle">
           <a href="#">
             <img
-              src={`${path}/images/나만의가계부.png`}
+              src={`${path}/images/맹그로브.png`}
               alt="accountbook"
               className="accountimg"
             />
@@ -76,7 +76,7 @@ const Projects = () => {
         <div className="bigTitle">
           <a href="#">
             <img
-              src={`${path}/images/나만의가계부.png`}
+              src={`${path}/images/포트폴리오.png`}
               alt="accountbook"
               className="accountimg"
             />

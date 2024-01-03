@@ -155,6 +155,14 @@ font-family: 'Red Hat Display', sans-serif; */
   .projectWrapper .bigTitle:nth-child(odd) .titleWrapper {
     margin-right: 120px;
   }
+  .projectWrapper .bigTitle:nth-child(5) .accountimg {
+    object-fit: inherit;
+    background-color: transparent;
+  }
+  .projectWrapper .bigTitle:nth-child(6) .accountimg {
+    object-fit: inherit;
+    background-color: transparent;
+  }
   .projectWrapper .titleWrapper {
     width: 30vw;
     margin-top: 200px;
