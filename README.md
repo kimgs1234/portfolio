@@ -86,4 +86,4 @@ about부분이 있는 컴포넌트에 저 코드를 추가하고 링크부분에
 수료를 하고도 좋은 개발자가 되기 위해 공부 꾸준히 해야 겠다고 느꼈다.
 
 ## 포트폴리오 바로가기
-<a href="https://port-0-accountlogin-hkty2alqemuiae.sel4.cloudtype.app/" target="_blank">포트폴리오 바로가기</a>
+<a href=" https://kimgs1234.github.io/portfolio/" target="_blank">포트폴리오 바로가기</a>
