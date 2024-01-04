@@ -28,3 +28,51 @@ mongoDB , node.js 부분이 있고 어떤 툴을 이용해서 작업을 할수 �
 팀프로젝트 2개 와 포트폴리오, 그리고 개인프로젝트 1개등을 소개하고 있다.
 
 ## 디렉토리 구조
+![포폴디렉토리](https://github.com/kimgs1234/portfolio/assets/142865411/b332ad7d-a46c-4bc4-bd0f-f8ea0d875f7a)
+
+## 문제 및 해결
+*상황: 헤더의 메뉴중 skill 과 project 페이지를 누르면 페이지로 넘어가면서 맨위로 넘어가져야 하는데 넘어가기 전 페이지 중간에서 넘어가면 <br>
+페이지의 중간부분으로 이동현상이 발생함
+
+*해결: 우선 스크롤이 맨위로 부드럽게 이동하는 컴포넌트를  
+``` react
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, [pathname]);
+
+  return null;
+};
+
+```
+와 같이 만들고 project컴포넌트와 skill컴포넌트에  scrolltoTop 컴포넌트를 넣었더니 페이지를 누르면 맨위로 가졌다.
+
+*상황: 헤더의 메뉴중 About페이지를 누르면 맨 처음 메인 페이지의 맨 밑 about쪽으로 넘어가야 하는데 <br>
+마찬가지로 이동하기전 높이값과 같은 위치로 스크롤이 됨
+
+*해결: 
+``` react
+const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: "smooth",
+    });
+  };
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.search === "?scrollTo=bottom") {
+      window.scrollTo({
+        top: document.documentElement.scrollHeight,
+        behavior: "smooth",
+      });
+    }
+  }, [location]); 
+
+```
+about부분이 있는 컴포넌트에 저 코드를 추가하고 링크부분에 다음과 같이 path를 수정하니 문제가 해결됨
