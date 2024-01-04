@@ -4,7 +4,7 @@
 포트폴리오에 정리를 하면서 어떤것이 부족하고 어떤부분을 보완 해야할지 많이 깨닫는 계기가 되었다.
 
 ## 사용기술
-* UI :react <br>
+* UI : react <br>
 * 디자인: css <br>
 * 라이브러리 : react-router-dom <br>
 * 툴: Github ,figma <br>
