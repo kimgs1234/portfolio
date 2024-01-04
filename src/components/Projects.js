@@ -13,7 +13,7 @@ const Projects = () => {
         <img src={`${path}/images/titicon.png`} alt="tit" className="titicon" />
         <h2>Projects</h2>
         <div className="bigTitle">
-          <div>
+          <div className="accountWrapper">
             <img
               src={`${path}/images/나만의가계부.png`}
               alt="accountbook"
