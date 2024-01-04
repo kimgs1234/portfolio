@@ -133,7 +133,7 @@ header div.active {
     margin-right: 15px;
   }
   header div ul li a:hover {
-    color: #ee8100;
+    color: #9e9e9e;
   }
   header h2 {
     font-size: 25px;
@@ -141,8 +141,8 @@ header div.active {
     margin-left: 8vw;
   }
   header h2:hover {
-    color: #ee8100;
-    border-color: #ee8100;
+    color: #9e9e9e;
+    border-color: #9e9e9e;
   }
   header .ham-btn {
     right: 50px;
