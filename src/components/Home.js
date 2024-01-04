@@ -84,7 +84,7 @@ const Home = () => {
             <span>CONTACT</span>
             <h3>010-7311-1691</h3>
           </div>
-          <a href="https://github.com/kimks1234" target="_blank">
+          <a href="https://github.com/kimgs1234" target="_blank">
             GitHub
           </a>
         </div>

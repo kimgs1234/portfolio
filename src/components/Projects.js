@@ -31,7 +31,7 @@ const Projects = () => {
               #MongoDB
             </p>
             <a
-              href="https://github.com/kimks1234/accountBook"
+              href="https://github.com/kimgs1234/accountBook"
               className="viewBtn"
               target="_blank">
               더보기
