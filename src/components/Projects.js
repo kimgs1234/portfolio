@@ -47,7 +47,6 @@ const Projects = () => {
             />
           </div>
           <div className="titleWrapper">
-            {" "}
             <h3>개인프로젝트</h3>
             <h6>리액트를 어느정도 다배우고 만든 개인프로젝트 사이트입니다.</h6>
             <p>#React</p>
@@ -88,7 +87,10 @@ const Projects = () => {
             <h3>포트폴리오</h3>
             <h6>리액트를 어느정도 배우고만든 개인 포트폴리오 사이트입니다.</h6>
             <p>#React #Css #react-routder-dom</p>
-            <a href="#" className="viewBtn">
+            <a
+              href="https://github.com/kimgs1234/portfolio"
+              className="viewBtn"
+              target="_blank">
               더보기
             </a>
           </div>
