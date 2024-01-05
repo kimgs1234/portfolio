@@ -174,23 +174,29 @@ body {
   font-weight: 700;
   margin-left: 55px;
 }
-.projectWrapper .accountimg {
+.projectWrapper .accountWrapper {
   width: 85vw;
   height: 85vw;
-  object-fit: contain;
+  overflow: hidden;
   background-color: #eee;
   display: block;
   margin: 100px auto 0;
   border: 1px solid #9e9e9e;
 }
 
-.projectWrapper .bigTitle:nth-child(5) .accountimg {
-  object-fit: inherit;
-  background-color: transparent;
+.projectWrapper .accountWrapper .accountimg {
+  display: block;
+  margin: 0 auto;
 }
-.projectWrapper .bigTitle:nth-child(6) .accountimg {
-  object-fit: inherit;
-  background-color: transparent;
+.projectWrapper .bigTitle:nth-child(3) .accountWrapper .accountimg,
+.projectWrapper .bigTitle:nth-child(4) .accountWrapper .accountimg {
+  margin-top: 5vw;
+}
+.projectWrapper .bigTitle:nth-child(5) .accountWrapper .accountimg {
+  height: 100%;
+}
+.projectWrapper .bigTitle:nth-child(6) .accountWrapper .accountimg {
+  height: 100%;
 }
 .projectWrapper .bigTitle:nth-child(3) {
   margin-top: 80px;

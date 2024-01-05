@@ -15,7 +15,7 @@ const Projects = () => {
         <div className="bigTitle">
           <div className="accountWrapper">
             <img
-              src={`${path}/images/나만의가계부.png`}
+              src={`${path}/images/나만의가계부1.png`}
               alt="accountbook"
               className="accountimg"
             />
@@ -39,9 +39,9 @@ const Projects = () => {
           </div>
         </div>
         <div className="bigTitle">
-          <div>
+          <div className="accountWrapper">
             <img
-              src={`${path}/images/나만의가계부.png`}
+              src={`${path}/images/나만의가계부1.png`}
               alt="accountbook"
               className="accountimg"
             />
@@ -56,7 +56,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="bigTitle">
-          <div>
+          <div className="accountWrapper">
             <img
               src={`${path}/images/맹그로브.png`}
               alt="accountbook"
@@ -76,7 +76,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="bigTitle">
-          <div>
+          <div className="accountWrapper">
             <img
               src={`${path}/images/포트폴리오.png`}
               alt="accountbook"

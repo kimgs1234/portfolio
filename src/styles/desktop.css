@@ -133,32 +133,43 @@ font-family: 'Red Hat Display', sans-serif; */
     top: -10px;
     left: 160px;
   }
-  .projectWrapper .accountimg {
+  .projectWrapper .accountWrapper {
     width: 30vw;
     height: 30vw;
+    overflow: hidden;
   }
   .projectWrapper .bigTitle {
     display: flex;
+    justify-content: center;
+  }
+  .projectWrapper .bigTitle:nth-child(3) .accountWrapper .accountimg {
+    display: block;
+    margin: 50px auto;
+  }
+  .projectWrapper .bigTitle:nth-child(4) .accountWrapper .accountimg {
+    display: block;
+    margin: 50px auto;
   }
   .projectWrapper .bigTitle:nth-child(odd) {
     flex-direction: row-reverse;
   }
-  .projectWrapper .bigTitle:nth-child(even) .accountimg {
+  .projectWrapper .bigTitle:nth-child(even) .accountWrapper {
     margin-left: 280px;
   }
-  .projectWrapper .bigTitle:nth-child(odd) .accountimg {
-    margin-right: 260px;
+  .projectWrapper .bigTitle:nth-child(odd) .accountWrapper {
+    margin-right: 280px;
   }
   .projectWrapper .bigTitle:nth-child(even) .titleWrapper {
-    margin-left: 80px;
+    margin-right: 15.625vw;
+    margin-top: 7.813vw;
   }
   .projectWrapper .bigTitle:nth-child(odd) .titleWrapper {
-    margin-right: 120px;
+    margin-left: 15.625vw;
+    margin-top: 9.375vw;
   }
 
   .projectWrapper .titleWrapper {
     width: 30vw;
-    margin-top: 200px;
   }
   .projectWrapper .titleWrapper h3 {
     font-size: 40px;
@@ -174,7 +185,7 @@ font-family: 'Red Hat Display', sans-serif; */
     width: 90%;
   }
   .projectWrapper .titleWrapper .viewBtn {
-    margin-top: 150px;
+    margin-top: 100px;
     width: 10vw;
   }
   .projectWrapper .titleWrapper .viewBtn:hover {
