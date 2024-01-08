@@ -70,7 +70,10 @@ const Projects = () => {
               입니다.
             </h6>
             <p>#Html #Css #JavaScript #responsiveWeb</p>
-            <a href="#" className="viewBtn">
+            <a
+              href="https://github.com/kimgs1234/Mangrove"
+              className="viewBtn"
+              target="_blank">
               더보기
             </a>
           </div>
