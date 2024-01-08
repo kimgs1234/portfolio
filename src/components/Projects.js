@@ -21,15 +21,12 @@ const Projects = () => {
             />
           </div>
           <div className="titleWrapper">
-            {" "}
             <h3>가계부앱</h3>
             <h6>
-              리액트를 학습하면서 진행한 팀프로젝트에서 만든 가계부 앱입니다.
-            </h6>
-            <p>
-              #React #Css #react-router-dom #rechart # react-calendar #Express
+              #React #Css #React-router-dom #Rechart #React-calendar #Express
               #MongoDB
-            </p>
+            </h6>
+            <p>리액트 팀프로젝트</p>
             <a
               href="https://github.com/kimgs1234/accountBook"
               className="viewBtn"
@@ -48,8 +45,8 @@ const Projects = () => {
           </div>
           <div className="titleWrapper">
             <h3>개인프로젝트</h3>
-            <h6>리액트를 어느정도 다배우고 만든 개인프로젝트 사이트입니다.</h6>
-            <p>#React</p>
+            <h6>#React</h6>
+            <p>리액트 개인프로젝트</p>
             <a href="#" className="viewBtn">
               더보기
             </a>
@@ -65,11 +62,8 @@ const Projects = () => {
           </div>
           <div className="titleWrapper">
             <h3>맹그로브 클론 사이트</h3>
-            <h6>
-              자바스크립트를 학습하면서 진행한 팀프로젝트에서 만든 웹사이트
-              입니다.
-            </h6>
-            <p>#Html #Css #JavaScript #responsiveWeb</p>
+            <h6>#Html #Css #JavaScript #responsiveWeb</h6>
+            <p>자바스크립트 팀프로젝트</p>
             <a
               href="https://github.com/kimgs1234/Mangrove"
               className="viewBtn"
@@ -88,8 +82,8 @@ const Projects = () => {
           </div>
           <div className="titleWrapper">
             <h3>포트폴리오</h3>
-            <h6>리액트를 어느정도 배우고만든 개인 포트폴리오 사이트입니다.</h6>
-            <p>#React #Css #react-routder-dom</p>
+            <h6>#React #Css #React-router-dom </h6>
+            <p>리액트 개인 포트폴리오</p>
             <a
               href="https://github.com/kimgs1234/portfolio"
               className="viewBtn"
